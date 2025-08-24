@@ -202,7 +202,7 @@ git push origin main
 2. **GitHub Actions will automatically**:
    - Build the project
    - Deploy to `gh-pages` branch
-   - Make it live at `https://imvijaychaurasia.github.io/yatrivisaconsultant`
+   - Make it live at `https://yatrivisaconsultant.in`
 
 #### Method 2: Manual Deployment
 ```bash
@@ -210,16 +210,19 @@ git push origin main
 npm run build
 
 # Install gh-pages (if not installed)
-npm install -g gh-pages
+npm install gh-pages
+
+# build
+npm run build
 
 # Deploy to GitHub Pages
-gh-pages -d dist
+npm run deploy
 ```
 
 ### Custom Domain Setup
-1. Add `CNAME` file in `public/` directory with your domain
+1. Add `CNAME` in root directory with www.yatrivisaconsultant.in domain
 2. Configure DNS settings with your domain provider
-3. Enable custom domain in GitHub Pages settings
+3. Enable custom domain with www.yatrivisaconsultant.in in GitHub Pages settings
 
 ## ⚙️ GitHub Actions Setup
 
