@@ -3,8 +3,7 @@
 A modern, responsive website for Yatri Visa Consultant - a leading visa and passport consultancy service based in Mumbai, India. Built with React, TypeScript, and Tailwind CSS.
 
 ## 🌐 Live Website
-- **Production**: [https://yatriguardian.in](https://yatriguardian.in)
-- **Development**: [https://imvijaychaurasia-yat-yb7c.bolt.host](https://imvijaychaurasia-yat-yb7c.bolt.host)
+- **Production**: [https://yatrivisaconsultant.in](https://yatrivisaconsultant.in)
 
 ## 📋 Project Overview
 
@@ -113,7 +112,7 @@ colors: {
 **Files**: 
 - `src/components/home/HeroSection.tsx`
 - `src/components/contact/ContactForm.tsx`
-- Update the phone number in `https://wa.me/919920928938`
+- Update the phone number in `https://wa.me/91XXXXXXXX`
 
 ## 💻 Local Development
 
@@ -125,7 +124,7 @@ colors: {
 ### 🐧 Linux Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yatriguardian.git
+git clone https://github.com/imvijaychaurasia/yatrivisaconsultant.git
 cd yatriguardian
 
 # Install dependencies
@@ -147,7 +146,7 @@ npm run preview
 brew install node
 
 # Clone the repository
-git clone https://github.com/yourusername/yatriguardian.git
+git clone https://github.com/imvijaychaurasia/yatrivisaconsultant.git
 cd yatriguardian
 
 # Install dependencies
@@ -166,7 +165,7 @@ npm run preview
 ### 🪟 Windows Setup
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/yatriguardian.git
+git clone https://github.com/imvijachaurasia/yatrivisaconsultant.git
 cd yatriguardian
 
 # Install dependencies
@@ -196,14 +195,14 @@ The project includes GitHub Actions workflow for automatic deployment.
 1. **Push to main branch**:
 ```bash
 git add .
-git commit -m "Your commit message"
+git commit -m "commit message"
 git push origin main
 ```
 
 2. **GitHub Actions will automatically**:
    - Build the project
    - Deploy to `gh-pages` branch
-   - Make it live at `https://yourusername.github.io/yatriguardian`
+   - Make it live at `https://imvijaychaurasia.github.io/yatrivisaconsultant`
 
 #### Method 2: Manual Deployment
 ```bash
@@ -284,14 +283,9 @@ Current workflow triggers on:
    - Ensure images are in `public/` directory
 
 4. **WhatsApp Links Not Working**:
-   - Verify phone number format: `919920928938`
+   - Verify phone number format: `91XXXXXXX`
    - Check URL encoding in contact forms
 
-## 📄 License
-This project is proprietary software for Yatri Visa Consultant.
-
-## 🤝 Contributing
-This is a private project. For any changes or updates, please contact the development team.
 
 ## 📞 Support
 For technical support or questions about this project:
